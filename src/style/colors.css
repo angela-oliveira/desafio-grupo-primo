@@ -1,0 +1,26 @@
+.color-banner-bg {
+  background-color: #011913;
+}
+.color-site-bg {
+  background-color: #001E1F;
+}
+.color-green-bg {
+  background-color: #00E1BE;
+}
+.color-green-ligth-bg {
+  background-color: #036060;
+}
+.color-green-text {
+  color: #00E1BE;
+}
+.color-dark-text {
+  color: #001E1F;
+}
+li::before {
+  content: "•";
+  color: #00E1BE;
+  padding-right: 10px;
+}
+#bonus {
+  background-image: url('/public/img/bg-2.png');
+}

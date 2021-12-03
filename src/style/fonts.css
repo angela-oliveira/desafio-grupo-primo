@@ -1,0 +1,58 @@
+
+    @font-face {
+      font-family: font-d-din;
+      src: url(../../public/fonts/D-DIN.otf);
+    }
+    @font-face {
+      font-family: font-bold;
+      src: url(../../public/fonts/D-DIN-Bold.otf);
+    }
+
+    @font-face {
+      font-family: font-italic;
+      src: url(../../public/fonts/D-DIN-Italic.otf);
+    }
+    @font-face {
+      font-family: font-condensed-bold;
+      src: url(../../public/fonts/D-DINCondensed-Bold.otf);
+    }
+    @font-face {
+      font-family: font-condensed;
+      src: url(../../public/fonts/D-DINCondensed.otf);
+    }
+    @font-face {
+      font-family: font-exp-bold;
+      src: url(../../public/fonts/D-DINExp-Bold.otf);
+    }
+    @font-face {
+      font-family: font-exp-italic;
+      src: url(../../public/fonts/D-DINExp-Italic.otf);
+    }
+    @font-face {
+      font-family: font-exp;
+      src: url(../../public/fonts/D-DINExp.otf);
+    }
+    .font-d-din {
+      font-family: font-d-din;
+    }
+    .font-bold {
+      font-family: font-bold;
+    }
+    .font-italic {
+      font-family: font-italic;
+    }
+    .font-condensed-bold {
+      font-family: font-condensed-bold;
+    }
+    .font-condensed {
+      font-family: font-condensed;
+    }
+    .font-exp-bold {
+      font-family: font-exp-bold;
+    }
+    .font-exp-italic {
+      font-family: font-exp-italic;
+    }
+    .font-exp {
+      font-family: font-exp;
+    }

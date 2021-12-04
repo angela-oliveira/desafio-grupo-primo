@@ -18,11 +18,13 @@ html, body, #main {
   height: 40px;
   opacity: 57%;
   margin-top: 60px;
-  /* z-index: -100; */
-  position: absolute;
+  z-index: 1000;
+  position: relative;
 }
 .img-banner {
-  /* position: absolute */
+  height: 100%;
+  z-index: 1;
+  top: 126px;
 }
 .mentoring {
   letter-spacing: 10px;
@@ -30,8 +32,79 @@ html, body, #main {
 .btn-subscription {
   padding: 5px 30px;
   border-radius: 10px;
+  border: none;
 }
-#informarion {
-  height: 800px;
-  letter-spacing: 10px;
+#information ul li {
+  margin: 20px;
+  list-style-type: none
 }
+.font-large {
+  font-size: 4rem;
+  font-weight: bold
+}
+.line-height {
+  line-height: 1
+}
+.line-height-2 {
+  line-height: 1.2
+}
+.mentores img {
+  border: #00E1BE solid 2px;
+  border-radius: 50%;
+}
+#bonus {
+  background-image: url('/public/img/image 3.png');
+}
+.border-r {
+  border-right: 2px solid #00E1BE 
+}
+.border-b {
+  border-bottom: 2px solid #00E1BE 
+}
+.border-black {
+  border-bottom: 2px solid #001E1F 
+}
+.inscricao {
+  margin-top: -30px;
+}
+.kepler {
+  margin-top: -70px;
+}
+@media screen and (max-width: 800px) {
+  .container {
+    margin: 1em 2em;
+  }
+  #img-kepler {
+    display: none;
+  }
+  .font-large {
+    font-size: 3rem;
+  }
+  #img-logo {
+    width: 70%;
+  }
+  /* .border-r {
+    border-bottom: 2px solid #00E1BE ;
+    padding: 1rem;
+  }
+  .border-r div {
+    justify-content: center;
+
+  } */
+} 
+@media screen and (max-width: 570px) {
+  .text-learn .border-r {
+    border-bottom: 2px solid #00E1BE ;
+    padding: 1rem;
+  }
+  .text-learn div div div {
+    text-align: center;
+  }
+  #value-number{
+    width: 70%;
+  }
+  .title-kepler {
+    flex-direction: column;
+    align-items: center;
+  }
+} 
